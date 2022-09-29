@@ -1,7 +1,3 @@
-body {
-  margin-right: 2em;
-}
-
 #pinterest-board {
   user-select: none;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.45);
@@ -11,10 +7,20 @@ body {
   margin-right: auto;
   position: relative;
   overflow: hidden;
-  top: 20vh;
+  top: 25vh;
   border-radius: 24px;
 }
+@media screen and (max-width: 540px) {
+  .view {
+    width: 400px;
+  }
 
+  @media screen and (min-width: 540px) and (max-width: 780px) {
+    .view {
+      width: 600px;
+    }
+  }
+}
 #pic {
   object-fit: cover;
   width: 100%;
@@ -131,4 +137,9 @@ body {
 #pinterest-board:hover #share {
   opacity: 0.9;
   top: 33em;
+}
+
+body {
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
