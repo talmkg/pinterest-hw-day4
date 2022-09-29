@@ -77,9 +77,7 @@ body {
   top: 44.5vh;
   left: 31vh;
 }
-#menu:hover {
-  transform: translateX(100px);
-}
+
 #menu .fa-solid {
   background-color: aliceblue;
   position: absolute;
