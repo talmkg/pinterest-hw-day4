@@ -38,6 +38,7 @@ body {
   position: absolute;
   color: black;
   opacity: 0;
+  transition: 0.3s;
 }
 
 #link .fa-solid {
@@ -63,6 +64,7 @@ body {
   top: 44.5vh;
   left: 25vh;
   opacity: 0;
+  transition: 0.3s;
 }
 #share .fa-solid {
   background-color: aliceblue;
@@ -79,6 +81,7 @@ body {
   top: 44.5vh;
   left: 31vh;
   opacity: 0;
+  transition: 0.3s;
 }
 
 #menu .fa-solid {
@@ -99,6 +102,7 @@ body {
   left: 27vh;
   text-align: center;
   opacity: 0;
+  transition: 0.3s;
 }
 
 #save h5 {
