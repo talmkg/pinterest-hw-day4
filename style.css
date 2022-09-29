@@ -34,7 +34,7 @@ body {
   height: 50px;
   background-color: aliceblue;
   margin-left: 1.5vh;
-  top: 44.5vh;
+  top: 51vh;
   position: absolute;
   color: black;
   opacity: 0;
@@ -61,7 +61,7 @@ body {
   border-radius: 28px 28px;
   width: 50px;
   height: 50px;
-  top: 44.5vh;
+  top: 50.5vh;
   left: 25vh;
   opacity: 0;
   transition: 0.3s;
@@ -78,7 +78,7 @@ body {
   border-radius: 28px 28px;
   width: 50px;
   height: 50px;
-  top: 44.5vh;
+  top: 51vh;
   left: 31vh;
   opacity: 0;
   transition: 0.3s;
@@ -91,14 +91,14 @@ body {
   top: 1em;
 }
 #save {
-  font-family: arial;
+  font-family: Helvetica;
   font-size: 20px;
   position: absolute;
-  background-color: rgb(204, 19, 19);
+  background-color: #e60023;
   border-radius: 28px;
   width: 100px;
   height: 50px;
-  top: 1.4vh;
+  top: -5vh;
   left: 27vh;
   text-align: center;
   opacity: 0;
@@ -117,13 +117,17 @@ body {
 
 #pinterest-board:hover #save {
   opacity: 1;
+  top: 1.4vh;
 }
 #pinterest-board:hover #menu {
   opacity: 1;
+  top: 44.5vh;
 }
 #pinterest-board:hover #link {
   opacity: 1;
+  top: 44.5vh;
 }
 #pinterest-board:hover #share {
   opacity: 1;
+  top: 44.5vh;
 }
