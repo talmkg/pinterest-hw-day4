@@ -37,6 +37,7 @@ body {
   top: 44.5vh;
   position: absolute;
   color: black;
+  opacity: 0;
 }
 
 #link .fa-solid {
@@ -61,11 +62,12 @@ body {
   height: 50px;
   top: 44.5vh;
   left: 25vh;
+  opacity: 0;
 }
 #share .fa-solid {
   background-color: aliceblue;
   position: absolute;
-  left: 0.65em;
+  left: 0.6em;
   top: 1em;
 }
 #menu {
@@ -76,6 +78,7 @@ body {
   height: 50px;
   top: 44.5vh;
   left: 31vh;
+  opacity: 0;
 }
 
 #menu .fa-solid {
@@ -95,6 +98,7 @@ body {
   top: 1.4vh;
   left: 27vh;
   text-align: center;
+  opacity: 0;
 }
 
 #save h5 {
@@ -103,4 +107,19 @@ body {
   position: absolute;
   bottom: -16px;
   left: 27.5px;
+}
+
+/*               ANIMATIONS               */
+
+#pinterest-board:hover #save {
+  opacity: 1;
+}
+#pinterest-board:hover #menu {
+  opacity: 1;
+}
+#pinterest-board:hover #link {
+  opacity: 1;
+}
+#pinterest-board:hover #share {
+  opacity: 1;
 }
