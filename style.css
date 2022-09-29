@@ -142,4 +142,5 @@
 body {
   overflow-x: scroll;
   overflow-y: scroll;
+  margin-right: 2em;
 }
