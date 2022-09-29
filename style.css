@@ -1,0 +1,108 @@
+body {
+}
+
+#pinterest-board {
+  user-select: none;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.45);
+  width: 440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  top: 25vh;
+  border-radius: 24px;
+}
+
+#pic {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#pinterest-board:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: black 2s linear 0.2s;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.45);
+}
+
+#link {
+  border-radius: 25px 25px;
+  width: 200px;
+  height: 50px;
+  background-color: aliceblue;
+  margin-left: 1.5vh;
+  top: 44.5vh;
+  position: absolute;
+  color: black;
+}
+
+#link .fa-solid {
+  position: absolute;
+  left: 19px;
+  top: 2vh;
+  size: 10px;
+}
+#link h5 {
+  font-family: arial;
+  position: absolute;
+  left: 2.7em;
+  font-size: 20px;
+  top: -1em;
+}
+
+#share {
+  position: absolute;
+  background-color: aliceblue;
+  border-radius: 28px 28px;
+  width: 50px;
+  height: 50px;
+  top: 44.5vh;
+  left: 25vh;
+}
+#share .fa-solid {
+  background-color: aliceblue;
+  position: absolute;
+  left: 0.65em;
+  top: 1em;
+}
+#menu {
+  position: absolute;
+  background-color: aliceblue;
+  border-radius: 28px 28px;
+  width: 50px;
+  height: 50px;
+  top: 44.5vh;
+  left: 31vh;
+}
+#menu:hover {
+  transform: translateX(100px);
+}
+#menu .fa-solid {
+  background-color: aliceblue;
+  position: absolute;
+  left: 0.6em;
+  top: 1em;
+}
+#save {
+  font-family: arial;
+  font-size: 20px;
+  position: absolute;
+  background-color: rgb(204, 19, 19);
+  border-radius: 28px;
+  width: 100px;
+  height: 50px;
+  top: 1.4vh;
+  left: 27vh;
+  text-align: center;
+}
+
+#save h5 {
+  font-size: large;
+  color: aliceblue;
+  position: absolute;
+  bottom: -16px;
+  left: 27.5px;
+}
